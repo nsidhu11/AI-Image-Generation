@@ -21,7 +21,7 @@ const home = () => {
     const fetchPosts = async () => {
       setLoading(true);
       try {
-        const response = await fetch("https://ai-tools-6onu.onrender.com/api/v1/post, {
+        const response = await fetch("https://ai-tools-6onu.onrender.com/api/v1/post", {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
