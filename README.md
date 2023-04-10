@@ -1,15 +1,15 @@
 # AI-Image-Generation
 
-### client-side frontend
-npm create vite@latest ./
-npm install
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
-npm install file-saver
-npm install react-router-dom
-npm run dev
+### client-side 
+1. npm create vite@latest ./
+2. npm install
+3. npm install -D tailwindcss postcss autoprefixer
+4. npx tailwindcss init -p
+5. npm install file-saver
+6. npm install react-router-dom
+7. npm run dev
 
-### server-side backend
-npm init-y
-npm install cloudinary cors dotenv express mongoose nodemon openai
-npm start
+### server-side 
+1. npm init-y
+2. npm install cloudinary cors dotenv express mongoose nodemon openai
+3. npm start
